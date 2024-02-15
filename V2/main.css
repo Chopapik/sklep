@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200&family=Poppins:wght@100;200;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #222222;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+#logo {
+    margin: 20px;
+    color: #FFFF;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#searchbar {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+#searchbar input {
+    width: calc(100% - 80px);
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 20px;
+    margin: 0px;
+    outline: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+#searchbar button {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(34, 77, 168);
+    border: none;
+    font-weight: 200;
+}
+
+#ad1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    width: 100vw;
+    height: 60vh;
+}
+
+#picture {
+    width: 300px;
+    height: 300px;
+    background: url(01.jpg);
+    border-radius: 200px;
+    background-size: cover;
+}

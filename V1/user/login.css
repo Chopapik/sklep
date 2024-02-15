@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(25, 243, 185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header img {
+    width: 100px;
+}
+
+div.change-language {
+    width: 300px;
+}
+
+#login-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    min-height: 200px;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    box-shadow: 10px 5px 10px rgb(7, 168, 125);
+}
+
+.login-input {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    width: 80vw;
+    border: 1px rgb(145, 145, 145) solid;
+}
+
+.login-input:focus {
+    border: 1px solid;
+}
+
+.login-button {
+    margin: 30px;
+    padding: 10px;
+    width: 50vw;
+    border: none;
+    color: white;
+    background-color: rgb(64, 64, 221);
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: rgb(109, 109, 247);
+
+}
+
+.to-regist a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-weight: 800;
+}
+
+#login-alternatives {
+    margin: 30px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-alternative {
+    width: 50px;
+    height: 50px;
+    border: 1px rgb(145, 145, 145) solid;
+}
+
+@media (min-width:426px) {
+    #login-panel {
+        width: 425px;
+    }
+
+    .login-input {
+        width: 375px;
+    }
+
+    .adress {
+        width: 375px;
+    }
+
+    .adress .login-input1,
+    .adress .login-input2 {
+        width: calc(375 / 2) px;
+    }
+
+    .login-button {
+        width: 200px;
+    }
+
+    #login-alternatives {
+        width: 300px;
+    }
+}
